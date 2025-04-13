@@ -34,8 +34,10 @@ These steps may still be needed to get the green LED to come on:
 
 and
 
-* sudo ln -s /usr/local/lib/libgpib.so.0 /lib/libgpib.so.0
-* sudo gpib_config
+```
+sudo ln -s /usr/local/lib/libgpib.so.0 /lib/libgpib.so.0
+sudo gpib_config
+```
 
 should make only the green ready light come on.
 
@@ -49,9 +51,11 @@ If you unplug the Agilent and plug it back in the red light will perist, because
 
 At this point, you should  be able to connect and talk to your device using
 
+```
 ibtest
+```
 
-Type issuing the *IDN? command and your device should response.
+Type issuing the ```*IDN?``` command and your device should response.
 
 
 # PyVisa
@@ -83,7 +87,7 @@ and run pyvisa-info again.  The gpib-ctypes error should be gone and the test-co
 
 ------
 
-*Note: still not clear if installing NI's Visa library is needed
+* Note: still not clear if installing NI's Visa library is needed
 
 
 
