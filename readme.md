@@ -65,7 +65,7 @@ print(rm.list_resources())
 
 will not list your devices.
 
-	* This may be the time to install NI's Visa library (but maybe not) and see if this helps (likely not).**
+* This may be the time to install NI's Visa library (but maybe not) and see if this helps (likely not).**
 
 Proceeding then, run
 
