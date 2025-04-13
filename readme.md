@@ -16,6 +16,8 @@ Do everthing in this page: https://tomverbeure.github.io/2023/01/29/Installing-L
 
 Now go to this page: https://gist.github.com/turingbirds/6eb05c9267a6437183a9567700e8581a
 
+Summary of important steps in this doc:
+
 * download the firmware for the Agilent as stated
 * fxload is already installed (step above)
 * do the edit to gpib.conf
