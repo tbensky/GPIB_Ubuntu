@@ -39,11 +39,12 @@ and
 
 should make only the green ready light come on.
 
-Not quite done yet! If you unplug the Agilent and plug it back in the red light will perist, because Ubuntu could not load the firmware. 
+### Not quite done yet
 
-Continue in the tomvebeure doc to the "Linux User Drivers" section to take care of this.
+If you unplug the Agilent and plug it back in the red light will perist, because Ubuntu could not load the firmware. 
 
-After this, you can plug and unplug all you want and the ready light will result on the Agilent.
+* Continue in the tomvebeure doc to the "Linux User Drivers" section to take care of this.
+* After this, you can plug and unplug all you want and the ready light will result on the Agilent.
 
 
 At this point, you should  be able to connect and talk to your device using
