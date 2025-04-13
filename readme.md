@@ -1,6 +1,6 @@
 # Installing Ubuntu GPIB, enabling the use of an Agilent 81357b USB-to-GPIB converter, and on toward PyVisa
 
-It is best to update ubuntu before starting: sudo apt upgrade. This will ensure the c-compiler matches what was used to build the kernel.
+It is best to update Ubuntu before starting: sudo apt upgrade. This will ensure the c-compiler matches what was used to build the kernel.
 
 
 ## Getting GPIB driver ready to go
